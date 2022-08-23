@@ -2,7 +2,7 @@
 
 ![homepage image](./assets/images/homepage-web-portofolio.PNG)
 
-Welcome to my portfolio website built with HTML, css and javascript without any framework or library. This design of this project is inspired from [Kent C. Dodds](https://kentcdodds.com/), [Brittany Chiang](https://brittanychiang.com/) and [Sonny Lazuardi](https://sonnylab.com/).
+Welcome to my portfolio website built with HTML, CSS and Javascript without any framework or library. This design of this project is inspired from [Kent C. Dodds](https://kentcdodds.com/), [Brittany Chiang](https://brittanychiang.com/) and [Sonny Lazuardi](https://sonnylab.com/).
 
 ## Color Reference
 
