@@ -1,10 +1,10 @@
 * {
-  font-family: 'Blinker', sans-serif;
+  font-family: "Blinker", sans-serif;
 }
 
 body {
-  background-color: #1F2028;
-  color: #A9ADC1;
+  background-color: #1f2028;
+  color: #a9adc1;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ body {
 /* navbar */
 header nav {
   width: 100%;
-  background-color: #1F2028;
+  background-color: #1f2028;
   padding: 25px 0;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ header nav ul li {
 header nav ul li a {
   font-size: 24;
   font-weight: 600;
-  color: #A9ADC1;;
+  color: #a9adc1;
 }
 
 header nav ul li a:hover {
@@ -84,7 +84,7 @@ header section.home article p:last-of-type {
 }
 
 header section.home article p:last-of-type span {
-  color: #36A3FF;
+  color: #36a3ff;
 }
 
 header section.home article p:nth-last-of-type(2) {
@@ -100,9 +100,9 @@ header section.home article p:nth-last-of-type(3) {
 
 header section.home article a {
   text-decoration: none;
-  color: #1F2028;
+  color: #1f2028;
   padding: 10px 20px;
-  background-color: #36A3FF;
+  background-color: #36a3ff;
   border-radius: 50px;
   font-weight: 400;
   font-size: 20px;
@@ -140,7 +140,7 @@ aside address:first-child {
   flex-direction: column;
   gap: 30px;
   align-items: center;
-} 
+}
 
 aside address:last-child {
   margin-right: 75px;
@@ -175,7 +175,6 @@ main section.about {
   justify-items: center;
   gap: 10vw;
   padding: 0 150px;
-
 }
 
 main section.about:nth-of-type(even) {
@@ -210,8 +209,8 @@ main section.about article ul {
 }
 
 main section.about article ul li {
-  color: #36A3FF;
-  border: 1px solid #36A3FF;
+  color: #36a3ff;
+  border: 1px solid #36a3ff;
   border-radius: 25px;
   padding: 5px 15px;
   font-weight: 400;
@@ -253,16 +252,16 @@ main section.contact a {
   margin-top: 10px;
   padding: 10px 20px;
   text-decoration: none;
-  color: #36A3FF;
-  border: 1px solid #36A3FF;
+  color: #36a3ff;
+  border: 1px solid #36a3ff;
   border-radius: 25px;
   cursor: pointer;
 }
 
 main section.contact a:hover {
-  color: #1F2028;
-  border: 1px solid #1F2028;
-  background-color: #36A3FF;
+  color: #1f2028;
+  border: 1px solid #1f2028;
+  background-color: #36a3ff;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -274,7 +273,7 @@ footer {
   align-items: center;
 }
 
-footer p{
+footer p {
   margin-top: 0;
 }
 
@@ -292,15 +291,13 @@ footer p:last-child {
 }
 
 footer p span {
-  color: #36A3FF;
+  color: #36a3ff;
 }
 
 footer p a {
   text-decoration: none;
-  color: #36A3FF;
+  color: #36a3ff;
 }
-
-
 
 /* component */
 
