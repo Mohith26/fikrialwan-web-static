@@ -8,3 +8,41 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* header */
+header nav {
+  background-color: #1F2028;
+  padding: 25px 75px;
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav .logo {
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+header nav ul li a {
+  font-size: 24;
+  font-weight: 600;
+  color: #A9ADC1;;
+}
+
+header nav ul li a:hover {
+  color: #fff;
+}
