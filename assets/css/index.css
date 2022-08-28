@@ -123,3 +123,87 @@ header section article p:last-child {
 header section img {
   flex: 3;
 }
+
+/* main */
+
+/* about section */
+main section.about:nth-of-type(even) {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-items: center;
+  gap: 10vw;
+  padding: 0 75px;
+}
+
+main section.about:nth-of-type(odd) {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10vw;
+  padding: 0 75px;
+}
+
+main section.about article {
+  flex: 3;
+}
+
+main section.about article h2 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+}
+
+main section.about article p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+main section.about article ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  gap: 10px;
+}
+
+main section.about article ul li {
+  color: #36A3FF;
+  border: 1px solid #36A3FF;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+main section.about img {
+  flex: 2;
+  border-radius: 18px;
+}
+
+/* component */
+
+/* more button */
+div.more {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+div.more a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+div.more a img {
+  width: 18px;
+  height: auto;
+}
