@@ -1,3 +1,10 @@
 * {
   font-family: 'Blinker', sans-serif;
 }
+
+body {
+  background-color: #1F2028;
+  color: #A9ADC1;
+  margin: 0;
+  padding: 0;
+}
