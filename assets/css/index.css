@@ -227,6 +227,48 @@ main section.about img {
 
 /* experience section */
 
+/* project section  */
+
+/* blog section */
+
+/* contact section */
+main section.contact {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10vw;
+  padding: 0 150px;
+}
+
+main section.contact h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+main section.contact p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main section.contact a {
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #36A3FF;
+  border: 1px solid #36A3FF;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main section.contact a:hover {
+  color: #1F2028;
+  border: 1px solid #1F2028;
+  background-color: #36A3FF;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
 /* footer */
 footer {
   display: flex;
