@@ -65,7 +65,7 @@ header section {
   align-items: center;
   justify-items: center;
   gap: 10vw;
-  padding: 0 75px;
+  padding: 0 150px;
 }
 
 header section article {
@@ -78,9 +78,9 @@ header section article p {
 
 header section.home article p:last-of-type {
   font-weight: 400;
-  font-size: 48px;
+  font-size: 36px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 header section.home article p:last-of-type span {
@@ -88,20 +88,20 @@ header section.home article p:last-of-type span {
 }
 
 header section.home article p:nth-last-of-type(2) {
-  font-size: 96px;
+  font-size: 68px;
   font-weight: 600;
   color: #fff;
 }
 
 header section.home article p:nth-last-of-type(3) {
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 400;
 }
 
 header section.home article a {
   text-decoration: none;
   color: #1F2028;
-  padding: 20px 30px;
+  padding: 10px 20px;
   background-color: #36A3FF;
   border-radius: 50px;
   font-weight: 400;
@@ -121,29 +121,72 @@ header section article p:last-child {
 }
 
 header section img {
-  flex: 3;
+  flex: 1;
+  width: 100%;
+  height: auto;
 }
 
+/* aside */
+aside {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 50vh;
+  display: flex;
+}
+
+aside address:first-child {
+  margin-left: 75px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+} 
+
+aside address:last-child {
+  margin-right: 75px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+aside address:last-child a {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+aside address div {
+  flex: 1;
+  width: 1px;
+  background-color: white;
+}
 /* main */
 
 /* about section */
-main section.about:nth-of-type(even) {
+main section.about {
   height: 100vh;
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   justify-items: center;
   gap: 10vw;
-  padding: 0 75px;
+  padding: 0 150px;
+
+}
+
+main section.about:nth-of-type(even) {
+  flex-direction: row-reverse;
 }
 
 main section.about:nth-of-type(odd) {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  gap: 10vw;
-  padding: 0 75px;
+  flex-direction: row;
 }
 
 main section.about article {
