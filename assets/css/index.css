@@ -133,11 +133,11 @@ aside {
   bottom: 0;
   height: 50vh;
   display: flex;
+  justify-content: space-between;
 }
 
 aside address:first-child {
   margin-left: 75px;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -146,7 +146,6 @@ aside address:first-child {
 
 aside address:last-child {
   margin-right: 75px;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
