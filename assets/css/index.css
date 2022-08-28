@@ -325,4 +325,5 @@ div.more a {
 div.more a img {
   width: 18px;
   height: auto;
+  margin-left: 5px;
 }
