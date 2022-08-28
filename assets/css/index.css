@@ -10,6 +10,8 @@ body {
 }
 
 /* header */
+
+/* navbar */
 header nav {
   width: 100%;
   background-color: #1F2028;
@@ -54,4 +56,70 @@ header nav ul li a:hover {
 
 header nav ul li a.active {
   color: #fff;
+}
+
+/* hero */
+header section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10vw;
+  padding: 0 75px;
+}
+
+header section article {
+  flex: 4;
+}
+
+header section article p {
+  margin: 0;
+}
+
+header section.home article p:last-of-type {
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+header section.home article p:last-of-type span {
+  color: #36A3FF;
+}
+
+header section.home article p:nth-last-of-type(2) {
+  font-size: 96px;
+  font-weight: 600;
+  color: #fff;
+}
+
+header section.home article p:nth-last-of-type(3) {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+header section.home article a {
+  text-decoration: none;
+  color: #1F2028;
+  padding: 20px 30px;
+  background-color: #36A3FF;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+header section article p:first-child {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+}
+
+header section article p:last-child {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+header section img {
+  flex: 3;
 }
