@@ -220,6 +220,7 @@ main section.about article ul li {
 main section.about img {
   flex: 2;
   border-radius: 18px;
+  width: calc(100% / 3);
 }
 
 /* experience section */
