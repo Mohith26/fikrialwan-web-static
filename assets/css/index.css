@@ -1,8 +1,5 @@
-* {
-  font-family: "Blinker", sans-serif;
-}
-
 body {
+  font-family: "Blinker", sans-serif;
   background-color: #1f2028;
   color: #a9adc1;
   margin: 0;
@@ -99,6 +96,7 @@ header section.home article p:nth-last-of-type(3) {
 }
 
 header section.home article a {
+  display: inline-block;
   text-decoration: none;
   color: #1f2028;
   padding: 10px 20px;
@@ -166,6 +164,7 @@ aside address div {
   width: 1px;
   background-color: white;
 }
+
 /* main */
 
 /* about section */
