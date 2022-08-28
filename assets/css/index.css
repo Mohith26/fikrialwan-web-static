@@ -122,8 +122,6 @@ header section article p:last-child {
 
 header section img {
   flex: 1;
-  width: 100%;
-  height: auto;
 }
 
 /* aside */
