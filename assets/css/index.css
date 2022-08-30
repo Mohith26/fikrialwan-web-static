@@ -122,8 +122,12 @@ header section article p:last-child {
   font-size: 40px;
 }
 
-header section img {
-  flex: 1;
+header section div {
+  flex: 3;
+}
+
+header section div img {
+  width: 100%;
 }
 
 /* aside */
