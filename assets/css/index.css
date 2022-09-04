@@ -6,8 +6,12 @@
   --color-dark-gray: #2e3039;
 }
 
-body {
+* {
   font-family: "Blinker", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
   background-color: var(--color-black);
   color: var(--color-gray);
   margin: 0;
@@ -22,7 +26,7 @@ body {
 header nav {
   width: 100%;
   background-color: var(--color-black);
-  padding: 25px 0;
+  padding: 25px 75px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -38,11 +42,9 @@ header nav .logo {
   font-size: 32px;
   color: var(--color-white);
   flex-grow: 1;
-  padding-left: 75px;
 }
 
 header nav ul {
-  padding-right: 75px;
   display: flex;
 }
 
@@ -201,7 +203,7 @@ main section.about:nth-of-type(odd) {
   flex-direction: row;
 }
 
-main section.about>p {
+main section.about > p {
   flex: 3;
 }
 
@@ -260,18 +262,18 @@ main section.experience h2 {
   color: var(--color-white);
 }
 
-main section.experience>article {
+main section.experience > article {
   display: flex;
   gap: 10vw;
   justify-items: center;
   align-items: center;
 }
 
-main section.experience>article>section:first-child {
+main section.experience > article > section:first-child {
   flex: 2;
 }
 
-main section.experience>article>section:first-child h3 {
+main section.experience > article > section:first-child h3 {
   font-size: 24px;
   font-weight: 600;
   margin: 0;
@@ -280,41 +282,41 @@ main section.experience>article>section:first-child h3 {
   transition: all 0.5ms ease-in;
 }
 
-main section.experience>article>section:first-child h3.active {
+main section.experience > article > section:first-child h3.active {
   color: var(--color-white);
 }
 
-main section.experience>article>section:first-child ul {
+main section.experience > article > section:first-child ul {
   padding: 10px 20px 15px 0;
   margin: 0;
   padding-left: 20px;
   cursor: pointer;
 }
 
-main section.experience>article>section:first-child li {
+main section.experience > article > section:first-child li {
   font-size: 20px;
   padding: 0;
   margin: 0;
   transition: all 0.5ms ease-in;
 }
 
-main section.experience>article>section:first-child li.active {
+main section.experience > article > section:first-child li.active {
   color: var(--color-white);
 }
 
-main section.experience>article>section:first-child article:hover h3,
-main section.experience>article>section:first-child article:hover li {
+main section.experience > article > section:first-child article:hover h3,
+main section.experience > article > section:first-child article:hover li {
   color: var(--color-white);
 }
 
-main section.experience>article>section:last-child {
+main section.experience > article > section:last-child {
   flex: 3;
   padding: 35px;
   border-radius: 18px;
   background-color: var(--color-dark-gray);
 }
 
-main section.experience>article>section:last-child p {
+main section.experience > article > section:last-child p {
   font-size: 16px;
   font-weight: 400;
 }
@@ -333,7 +335,7 @@ main section.projects h2 {
   color: var(--color-white);
 }
 
-main section.projects>div:first-of-type {
+main section.projects > div:first-of-type {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
@@ -413,7 +415,7 @@ main section.blog h2 {
   color: var(--color-white);
 }
 
-main section.blog>div:first-of-type {
+main section.blog > div:first-of-type {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
@@ -457,7 +459,7 @@ main section.contact {
   padding: 0 150px;
 }
 
-main section.contact>div {
+main section.contact > div {
   flex: 1;
 }
 
