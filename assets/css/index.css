@@ -37,20 +37,31 @@ header nav a {
   text-decoration: none;
 }
 
+header nav .nav-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+header nav .nav-child img {
+  display: none;
+  height: 24px;
+}
+
 header nav .logo {
   font-weight: 600;
   font-size: 32px;
   color: var(--color-white);
-  flex-grow: 1;
 }
 
 header nav ul {
   display: flex;
+  gap: 50px;
 }
 
 header nav ul li {
   list-style: none;
-  margin-left: 50px;
 }
 
 header nav ul li a {
@@ -560,4 +571,28 @@ div.more a img {
 
 div.more a:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+  header nav {
+    padding: 25px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  header nav {
+    padding: 25px 25px;
+  }
+
+  header nav .nav-child img {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
 }
