@@ -51,12 +51,22 @@ header nav .nav-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
+  width: 100%;
 }
 
-header nav .nav-child img {
+header nav .nav-child .nav-menu-icon {
   display: none;
   height: 24px;
+  width: 24px;
+  background: url(/assets/icons/menu.svg);
+  background-position: center;
+  background-size: contain;
+}
+
+header nav .nav-child .nav-menu-icon.close {
+  background: url(/assets/icons/close.svg);
+  background-position: center;
+  background-size: contain;
 }
 
 header nav .logo {
@@ -635,11 +645,8 @@ div.more a:hover {
 @media (max-width: 768px) {
   header nav {
     padding: 25px 25px;
+    flex-direction: column;
   }
-
-  /* header nav.scroll {
-    padding: 15px 15px;
-  } */
 
   header section,
   header section.home,
@@ -651,12 +658,20 @@ div.more a:hover {
     padding: 0 25px;
   }
 
-  header nav .nav-child img {
+  header nav .nav-child .nav-menu-icon {
     display: block;
+    cursor: pointer;
   }
 
   header nav ul {
     display: none;
+  }
+
+  header nav ul.nav-mobile-show {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   main section.about:nth-of-type(even),
