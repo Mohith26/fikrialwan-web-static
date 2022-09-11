@@ -4,11 +4,10 @@ const experienceListDesc = [
   'I am an undergraduate student at Tanjungpura Unversity majoring in computer system engineering since July 2016 and will be finished on October 2022. when I was in college I focused on studying mobile and web development. My final project research made a website to detect clickbait news from news titles using Multinomial Naive Bayes algorithm.',
   'I am working in Bersihberes as a mobile application developer since July 2020 until January 2021. I am developing an android app named PIFA and publish it in playstore. I developed that app using dart programming language and flutter SDK.',
 ]
-let indexExperienceChoose = 0;
-
 const nav = document.getElementsByTagName('nav')[0];
 const socialMediaMobile = document.getElementsByClassName('social-media-mobile')[0];
 let showSocialMedia;
+let indexExperienceChoose = 0;
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 30) {
