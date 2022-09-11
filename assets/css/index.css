@@ -197,6 +197,10 @@ aside address:last-child {
   align-items: center;
 }
 
+aside.social-media-mobile {
+  display: none;
+}
+
 aside address:last-child a {
   font-size: 20px;
   font-weight: 600;
@@ -631,6 +635,55 @@ div.more a:hover {
     display: none;
   }
 
+  aside.social-media-mobile {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  aside.social-media-mobile div {
+    background-color: var(--color-blue);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+  aside.social-media-mobile div img {
+    width: 25px;
+    margin: 0 2px 2px 0;
+  }
+
+  aside.social-media-mobile a {
+    border: 5px solid var(--color-white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in;
+  }
+
+  aside.social-media-mobile a:nth-of-type(1) {
+    transform: translateY(120px) rotate(360deg);
+  }
+
+  aside.social-media-mobile a:nth-of-type(2) {
+    transform: translateY(60px) rotate(180deg);
+  }
+
+  aside.social-media-mobile.show a {
+    transform: translateY(0);
+  }
+
   header section,
   header section.home,
   main section.about,
@@ -646,6 +699,10 @@ div.more a:hover {
   header nav {
     padding: 25px 25px;
     flex-direction: column;
+  }
+
+  aside.social-media-mobile {
+    right: 25px;
   }
 
   header section,

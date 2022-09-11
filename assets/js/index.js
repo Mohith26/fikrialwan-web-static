@@ -22,6 +22,11 @@ navMenu.addEventListener('click', () => {
   navList.classList.toggle('nav-mobile-show');
 });
 
+const socialMediaMobile = document.getElementsByClassName('social-media-mobile')[0];
+socialMediaMobile.addEventListener('click', () => {
+  socialMediaMobile.classList.toggle('show');
+})
+
 if (navList.children[0].children[0].classList.length > 0) {
   const experienceList = document.getElementsByClassName('experience')[0].getElementsByTagName('section')[0];
   const experienceDesc = document.getElementById('experience-desc');
