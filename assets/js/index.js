@@ -6,23 +6,35 @@ const experienceListDesc = [
 ]
 let indexExperienceChoose = 0;
 
+const nav = document.getElementsByTagName('nav')[0];
+const socialMediaMobile = document.getElementsByClassName('social-media-mobile')[0];
+let showSocialMedia;
+
 window.addEventListener('scroll', () => {
-  const nav = document.getElementsByTagName('nav')[0];
   if (window.scrollY > 30) {
     nav.classList.add('scroll');
   } else {
     nav.classList.remove('scroll');
   }
+
+  clearTimeout(showSocialMedia);
+  socialMediaMobile.classList.add('hidden');
+
+  showSocialMedia = setTimeout(() => {
+    socialMediaMobile.classList.remove('hidden');
+  }, 1500);
 });
 
+
+
+
 const navMenu = document.getElementsByClassName('nav-menu-icon')[0];
-const navList = document.getElementsByTagName('nav')[0].children[1];
+const navList = nav.children[1];
 navMenu.addEventListener('click', () => {
   navMenu.classList.toggle('close');
   navList.classList.toggle('nav-mobile-show');
 });
 
-const socialMediaMobile = document.getElementsByClassName('social-media-mobile')[0];
 socialMediaMobile.addEventListener('click', () => {
   socialMediaMobile.classList.toggle('show');
 })

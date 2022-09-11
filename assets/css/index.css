@@ -643,6 +643,11 @@ div.more a:hover {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  aside.social-media-mobile.hidden {
+    transform: scale(0);
   }
 
   aside.social-media-mobile div {
