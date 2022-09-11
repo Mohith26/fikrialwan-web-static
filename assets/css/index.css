@@ -663,6 +663,7 @@ div.more a:hover {
 
   aside.social-media-mobile a {
     border: 5px solid var(--color-white);
+    background-color: var(--color-dark-gray);
     width: 40px;
     height: 40px;
     border-radius: 50%;
